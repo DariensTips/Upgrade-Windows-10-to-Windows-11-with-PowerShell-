@@ -1,3 +1,10 @@
+####################################################################
+# Upgrade Windows 10 to Windows 11 with PowerShell (No Intune, SCCM, or MDT Needed!)
+# https://www.youtube.com/@darienstips9409
+# Update offline Windows install.wim
+####################################################################
+
+
 # Prepare and get SHA256 HASH of source ISO file
 $isoFilePath = "\\dariens.tips\upgrade\ISOFiles"
 Get-FileHash $isoFilePath\$isoFileName
@@ -110,6 +117,7 @@ Get-Process -name setup
 Windows11_InsiderPreview_EnterpriseVL_x64_en-us_26200
 ...renamed to...
 SW_DVD9_Win_Pro_11_25H2_64BIT_English_Pro_Ent_EDU_N_MLF_26200-5074
+
 
 
 
